@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+/* Background pattern from Toptal Subtle Patterns */
+    background-image: url(cork-board.png);
+}
+#conteiner
+{
+	width: 1000px;
+	background-color:#f2ffe6;
+	margin: 5px auto;
+	
+}
+header
+{ 
+    height: 100px;
+    background-color: #97c6d9;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 20px;
+    line-height: 100px;
+}
+nav
+{
+	background-color: #ff9999;
+	margin-top: 10px;
+	border-bottom:  2px solid#ff3333;
+	border-top: 2px solid#ff3333;
+}
+nav a
+{
+	display: inline-block;
+	width: 247px;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 0;
+	font-size: 20px;
+}
+nav a:hover
+{
+	background-color: #ff3333;
+	color: #ffffff;
+}
+section
+{
+	margin: 10px;
+}
+article
+{
+	background-color: #ffffb3;
+}
+article img
+{
+	width: 25%;
+	float: left;
+	padding: 0 10px;
+	border-radius:  30%;
+	padding-top: 10px;
+}
+article p
+{
+    display: block;
+    text-align: justify;
+    padding: 10 30px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'Pontano Sans', sans-serif;
+}
+aside
+{
+	clear: both;
+    background-color: #ffccee;
+    line-height: 25px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-top: 2px solid #780979;
+}
+footer
+{
+	background-color: #262424;
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+}
